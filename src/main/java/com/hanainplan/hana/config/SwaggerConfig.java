@@ -16,7 +16,7 @@ public class SwaggerConfig {
     @Bean
     public OpenAPI hanaBankOpenAPI() {
         Server devServer = new Server();
-        devServer.setUrl("http://localhost:8081");
+        devServer.setUrl("https://hana-production.up.railway.app/");
         devServer.setDescription("HANA Bank Server URL in Development environment");
 
         Contact contact = new Contact();
