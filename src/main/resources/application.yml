@@ -8,7 +8,7 @@ spring:
     active: dev
   
   datasource:
-    url: jdbc:mysql://localhost:3307/hana_bank?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    url: ${MYSQL_URL}
     username: ${MYSQL_USER}
     password: ${MYSQL_PASSWORD}
     driver-class-name: com.mysql.cj.jdbc.Driver
